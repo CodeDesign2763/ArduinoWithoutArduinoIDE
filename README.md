@@ -56,7 +56,7 @@ avrdude -c usbasp -p atmega328p -u -U flash:w:"%e.elf":e
 Данную опцию рекомендуется всегда использовать в статье по [ссылке](https://www.elecrom.com/avrdude-tutorial-burning-hex-files-using-usbasp-and-avrdude/):
 *"Many times it happens that we forget to switch on the AVR’s +5V power supply, then at the end of programming cycle, avrdude detects inconsistent fuses and tries to reprogram them. Since there is no power supply, fuses gets programmed incorrectly and entire microcontroller gets screwed up(means becomes useless). Thus always use this option."*
 
-Если к МК подключена **мощная нагрузка**,то перед загрузкой прошивки нужно обязательно [подключить внешнее питание](https://alexgyver.ru/lessons/arduino-power/)!
+Если к МК подключена **мощная нагрузка**, то перед загрузкой прошивки нужно обязательно [подключить внешнее питание](https://alexgyver.ru/lessons/arduino-power/)!
 
 ## Пример использования
 
